@@ -11,8 +11,10 @@ const Navbar = () => {
                     <img src={logo} alt="logo" />
                 </div>
             </div>
-            <div className='bg-black'>
-                    <p className='text-white'>Home</p>
+            <div className='bg-black flex justify-center gap-10 py-6'>
+                    <a href='/' className='text-white'>Shop</a>
+                    <a href='/review' className='text-white'>Order Review</a>
+                    <p className='text-white'>Manage Inventory</p>
             </div>
         </nav>
     )
